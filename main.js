@@ -6,7 +6,7 @@ window.onload = function () {
   books.addEventListener("click", booksEvent);
 };
 function pictureEvent(event) {
-  console.log("ME!");
+  alert("ME!");
 }
 function booksEvent(event) {
   alert("I like A lot more books!");
